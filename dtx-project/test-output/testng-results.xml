@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12100" started-at="2019-02-11T16:01:10Z" finished-at="2019-02-11T16:01:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12100" started-at="2019-02-11T16:01:10Z" finished-at="2019-02-11T16:01:22Z">
+      <class name="com.Prod.dtx_project.DIF1v2">
+        <test-method status="PASS" signature="MainSetup()[pri:0, instance:com.Prod.dtx_project.DIF1v2@3c0ecd4b]" name="MainSetup" is-config="true" duration-ms="4005" started-at="2019-02-11T16:01:10Z" finished-at="2019-02-11T16:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainSetup -->
+        <test-method status="PASS" signature="TC001NavigateToTRANSCOM()[pri:1, instance:com.Prod.dtx_project.DIF1v2@3c0ecd4b]" name="TC001NavigateToTRANSCOM" duration-ms="1146" started-at="2019-02-11T16:01:14Z" finished-at="2019-02-11T16:01:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001NavigateToTRANSCOM -->
+        <test-method status="PASS" signature="Print()[pri:0, instance:com.Prod.dtx_project.DIF1v2@3c0ecd4b]" name="Print" is-config="true" duration-ms="0" started-at="2019-02-11T16:01:14Z" finished-at="2019-02-11T16:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Print -->
+        <test-method status="PASS" signature="Print()[pri:0, instance:com.Prod.dtx_project.DIF1v2@3c0ecd4b]" name="Print" is-config="true" duration-ms="0" started-at="2019-02-11T16:01:15Z" finished-at="2019-02-11T16:01:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Print -->
+        <test-method status="PASS" signature="TC002logintoProfile()[pri:2, instance:com.Prod.dtx_project.DIF1v2@3c0ecd4b]" name="TC002logintoProfile" duration-ms="5087" started-at="2019-02-11T16:01:15Z" finished-at="2019-02-11T16:01:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002logintoProfile -->
+        <test-method status="PASS" signature="Print()[pri:0, instance:com.Prod.dtx_project.DIF1v2@3c0ecd4b]" name="Print" is-config="true" duration-ms="1" started-at="2019-02-11T16:01:20Z" finished-at="2019-02-11T16:01:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Print -->
+        <test-method status="PASS" signature="searchLeftNav()[pri:3, instance:com.Prod.dtx_project.DIF1v2@3c0ecd4b]" name="searchLeftNav" duration-ms="1240" started-at="2019-02-11T16:01:20Z" finished-at="2019-02-11T16:01:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchLeftNav -->
+        <test-method status="PASS" signature="LogOutTC00Z()[pri:0, instance:com.Prod.dtx_project.DIF1v2@3c0ecd4b]" name="LogOutTC00Z" is-config="true" duration-ms="589" started-at="2019-02-11T16:01:22Z" finished-at="2019-02-11T16:01:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutTC00Z -->
+      </class> <!-- com.Prod.dtx_project.DIF1v2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Regression Testing(failed)">
+    <classes>
+      <class name="com.Prod.dtx_project.DIF1v2">
+        <methods>
+          <include name="Issue"/>
+          <include name="LandingPage"/>
+        </methods>
+      </class> <!-- com.Prod.dtx_project.DIF1v2 -->
+    </classes>
+  </test> <!-- Regression Testing(failed) -->
+</suite> <!-- Failed suite [Suite] -->

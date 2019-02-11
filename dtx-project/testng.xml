@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Suite">
+
+
+  <test name="Regression Testing">
+    <classes>
+      <class name="com.Prod.dtx_project.DIF1v2"/>
+      <class name="com.Prod.dtx_project.SearchPg"/>
+    </classes>
+  </test> 
+  
+  
+<!--     <test name="Regression Testing">
+    <classes>
+      <class name="com.Prod.dtx_project.DIF1"/>
+    </classes>
+  </test>  -->
+  
+  
+</suite>
