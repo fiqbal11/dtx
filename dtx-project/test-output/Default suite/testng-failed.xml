@@ -7,7 +7,9 @@
         <methods>
           <include name="LogOutTC00Z"/>
           <include name="MainSetup"/>
+          <include name="SearchByPSRnumber"/>
           <include name="SearchByDatixID"/>
+          <include name="SearchByPSRnumberValidateResult"/>
           <include name="Print"/>
         </methods>
       </class> <!-- com.Prod.dtx_project.SearchPg -->

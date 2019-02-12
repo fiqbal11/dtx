@@ -31,16 +31,17 @@ public class TestBase {
 	   @BeforeMethod 
 			public void Print()
 	   {
-		   System.out.println("Sting = methodName + Pass");
+		   //"Sting = methodName + Pass"
+		   System.out.println("Pass");
 		   
 	   }
 	
 	   
 	   @AfterClass
-		public void LogOutTC00Z()
+		public void LogOutCloseTC00Z()
 	   {
 	   driver.findElement(By.xpath("//*[@id='sub-menu']/ul/li[7]/a")).click();
-	   
+	   driver.close();
 	   }
 	   
 }
